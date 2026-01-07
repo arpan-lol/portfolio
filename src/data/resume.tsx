@@ -9,9 +9,12 @@ export const DATA = {
   location: "New Delhi, India",
   locationLink: "https://maps.app.goo.gl/X1GHwDDYD2jmJ3iq8",
   description:
-    "19 y/o Full Stack AI dev. I love building things and helping people. Very active on Twitter.",
-  summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "19 y/o Full Stack AI dev",
+  summary: (
+    <>
+      Currently enrolled in <u><a href="#education">Bachelor of Technology in Computer Science and Engineering</a></u>. I love playing with cloud infrastructure and automating anything that I can. I mostly learn by shipping and fixing what breaks. When I'm not coding, I'm usually reading, playing guitar, or swimming.
+    </>
+  ),
   avatarUrl: "/me.jpeg",
   skills: [
     "Typescript",
@@ -95,7 +98,7 @@ export const DATA = {
     },
     {
       school: "Indian Institute of Technology, Madras",
-      href: "https://iitm.ac.in",
+      href: "https://www.iitm.ac.in",
       degree: "Bachelor of Science in Data Science and Applications (B.E.)",
       logoUrl: "/iitm.png",
       start: "2024",
@@ -104,7 +107,7 @@ export const DATA = {
     {
       school: "St. Margaret Sr. Sec. School",
       href: "https://stmargaretsrsecschool.com/",
-      degree: "Primary, Middle and High schooling",
+      degree: "Primary, Middle and High Schooling",
       logoUrl: "/smsss.jpg",
       start: "2010",
       end: "2024",
@@ -141,7 +144,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />
         }
       ],
-      image: "https://github.com/arpan-lol/cosmic-engine/blob/main/frontend/public/logo.png",
+      image: "",
       video: "",
     },
     {
@@ -264,7 +267,7 @@ export const DATA = {
       ],
     },
     {
-      title: "Cognizance 2025",
+      title: "Cognizance 2025 (Second Position)",
       dates: "September 14th - 16th, 2018",
       location: "IIT Roorkee, Uttrakhand, India",
       description:
