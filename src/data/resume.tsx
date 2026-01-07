@@ -63,6 +63,20 @@ export const DATA = {
 
         navbar: true,
       },
+      Instagram: {
+        name: "Instagram",
+        url: "https://instagram.com/arpan14._",
+        icon: Icons.instagram,
+
+        navbar: true,
+      },
+      Peerlist: {
+        name: "Peerlist",
+        url: "https://peerlist.io/arpanlol",
+        icon: Icons.peerlist,
+
+        navbar: true,
+      },
       email: {
         name: "Send Email",
         url: "#",

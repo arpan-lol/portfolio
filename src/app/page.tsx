@@ -74,6 +74,7 @@ export default function Page() {
           ))}
         </div>
       </section> */}
+      <br></br>
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
@@ -97,6 +98,7 @@ export default function Page() {
           ))}
         </div>
       </section>
+      <br></br>
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
@@ -201,14 +203,15 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Want to chat? Just shoot me an {" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href="mailto:arpantaneja14@gmail.com"
                   className="text-blue-500 hover:underline"
+                  target="_blank"
                 >
-                  with a direct question on twitter
+                  email
                 </Link>{" "}
-                and I&apos;ll respond whenever I can!
+                and I&apos;ll respond as soon I can!
               </p>
             </div>
           </BlurFade>
