@@ -36,7 +36,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "arpantaneja14@gmail.com",
@@ -278,7 +278,7 @@ export const DATA = {
         {
           title: "Github",
           href: "https://github.com/arpan-lol/bitbybit",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.github className="size-3" />,
         },
       ],
       win: "Runners Up"
@@ -296,7 +296,7 @@ export const DATA = {
         {
           title: "Github",
           href: "https://github.com/imashishchoudhary/lampstack",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.github className="size-3" />,
         },
       ],
     },
@@ -313,7 +313,7 @@ export const DATA = {
         {
           title: "Github",
           href: "https://github.com/imashishchoudhary/retexture",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.github className="size-3" />,
         },
       ],
     },
@@ -330,7 +330,7 @@ export const DATA = {
         {
           title: "Github",
           href: "https://github.com/arpan-lol/cyborg-db",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.github className="size-3" />,
         },
       ],
     },
