@@ -12,7 +12,7 @@ export const DATA = {
     "19 y/o Full Stack AI dev",
   summary: (
     <>
-      Currently enrolled in <u><a href="#education">Bachelor of Technology in Computer Science and Engineering</a></u>. I love playing with cloud infrastructure and automating anything that I can. I mostly learn by shipping and fixing what breaks. When I&apos;m not coding, I&apos;m usually reading, playing guitar, or swimming.
+      Currently enrolled in <u><a href="#education">Bachelor&apos;s of Technology in Computer Science and Engineering</a></u>. I love playing with cloud infrastructure and automating anything that I can. I mostly learn by shipping and fixing what breaks. When I&apos;m not coding, I&apos;m usually reading, playing guitar, or swimming.
     </>
   ),
   avatarUrl: "/me.jpeg",
@@ -113,13 +113,13 @@ export const DATA = {
     {
       school: "Indian Institute of Technology, Madras",
       href: "https://www.iitm.ac.in",
-      degree: "Bachelor of Science in Data Science and Applications (B.E.)",
+      degree: "Bachelor's of Science in Data Science and Applications (B.E.)",
       logoUrl: "/iitm.png",
       start: "2024",
       end: "Present",
     },
     {
-      school: "St. Margaret Sr. Sec. School",
+      school: "St. Margaret Sr. Sec. School, New Delhi",
       href: "https://stmargaretsrsecschool.com/",
       degree: "Primary, Middle and High Schooling",
       logoUrl: "/smsss.jpg",
