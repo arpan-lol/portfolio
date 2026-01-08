@@ -163,7 +163,7 @@ export default function Page() {
                   Hackathons
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  I LOVE building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   During my time in university, I attended 30+ hackathons, where intense collaboration, tight deadlines, and constant iteration became the norm. These experiences reinforced my interest in building and working in fast paced environments.
