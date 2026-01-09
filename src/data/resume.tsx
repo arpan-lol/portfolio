@@ -65,14 +65,14 @@ export const DATA = {
       },
       Instagram: {
         name: "Instagram",
-        url: "https://instagram.com/arpan14._",
+        url: "https://dub.sh/arpan-ig",
         icon: Icons.instagram,
 
         navbar: true,
       },
       Peerlist: {
         name: "Peerlist",
-        url: "https://peerlist.io/arpanlol",
+        url: "https://dub.sh/arpan-peerlist",
         icon: Icons.peerlist,
 
         navbar: true,
