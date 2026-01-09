@@ -12,7 +12,7 @@ export const DATA = {
     "19 y/o Full Stack AI dev",
   summary: (
     <>
-      Currently enrolled in <u><a href="#education">Bachelor&apos;s of Technology in Computer Science and Engineering</a></u>. I love playing with cloud infrastructure and automating anything that I can. I mostly learn by shipping and fixing what breaks. When I&apos;m not coding, I&apos;m usually reading, playing guitar, or swimming.
+      Currently enrolled in <u><a href="#education">Bachelor&apos;s of Technology in Computer Science and Engineering</a></u>. I love playing with cloud infrastructure and automating anything that I can. I mostly learn by shipping and fixing what breaks. Outside of coding, I enjoy reading, playing guitar, and swimming.
     </>
   ),
   avatarUrl: "/me.jpeg",
