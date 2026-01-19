@@ -315,7 +315,7 @@ export const DATA = {
       ],
     },
     {
-      title: "Tesco Retail Media InnovAItion Jam",
+      title: "Tesco Retail Media InnovAItion Jam (National Finalist)",
       dates: "December 2025",
       location: "",
       description:
