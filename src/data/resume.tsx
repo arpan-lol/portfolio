@@ -140,7 +140,7 @@ export const DATA = {
         "Typescript",
         "Python",
         "Gemini",
-        "GCP,",
+        "GCP",
         "Sentry",
         "PostgreSQL",
         "Next.js",
@@ -158,11 +158,11 @@ export const DATA = {
           icon: <Icons.github className="size-3" />
         }
       ],
-      image: "/cosmicengine.png",
-      video: "",
+      image: "",
+      video: "/Cosmic Engine demo video.mp4",
     },
     {
-      title: "CSI Innowave Mobile App",
+      title: "Zypher",
       href: "https://csim1.arpantaneja.dev",
       dates: "Dec 2024 - Feb 2025",
       active: true,
@@ -227,7 +227,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/veil-cover.png",
+      image: "/veil.gif",
       video: "",
     },
     {
@@ -309,7 +309,7 @@ export const DATA = {
       links: [
         {
           title: "Github",
-          href: "https://github.com/imashishchoudhary/lampstack",
+          href: "https://github.com/arpan-lol/lampstack",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -326,7 +326,7 @@ export const DATA = {
       links: [
         {
           title: "Github",
-          href: "https://github.com/imashishchoudhary/retexture",
+          href: "https://github.com/arpan-lol/retexture",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -336,7 +336,7 @@ export const DATA = {
       dates: "December 27th, 2025",
       location: "",
       description:
-        "Developed an end-to-end encrypted RAG application, with a local embedding model & LLM powered by Cyborg's encrypted embeddings.",
+        "Developed an end-to-end encrypted RAG application, with a local embedding model & LLM, powered by Cyborg's encrypted embeddings.",
       icon: "public",
       image:
         "/cyborg.png",
