@@ -214,7 +214,7 @@ export const DATA = {
         "Typescript",
         "Gemini",
         "Ollama",
-        "all-MiniLM-L6-v2",
+        "Local AI",
         "Docker",
         "Next.js",
         "PostgreSQL",
@@ -275,7 +275,7 @@ export const DATA = {
       dates: "23 Aug 2025",
       location: "Bangaluru, India",
       description:
-        "Built an Agentic + RAG document system for 6+ formats (PDF, DOCX, XLSX, PPTX, images, emails) with Browser automation for search, navigation, forms, and data capture; use an LLM to write and edit code, run sandbox checks, and auto-deploy to GitHub (auto-commit and PR) behind CI gating.",
+        "India's Largest Gen AI Hackathon (50K+): Built an Agentic + RAG document system with Browser automation for search, navigation, forms, and data capture; use an LLM to write and edit code, run sandbox checks, and auto-deploy to GitHub (auto commit and PR) behind CI gating.",
       image:
         "/bajaj.png",
       win: "Pace & Power Award - 4th Position",
@@ -305,23 +305,6 @@ export const DATA = {
       win: "Runners Up"
     },
     {
-      title: "EY Techathon 6.0",
-      dates: "December 2025",
-      location: "",
-      description:
-        "Developed an autonomous platform that validates healthcare provider data through a multi-agent AI architecture orchestrated by LangGraph.",
-      icon: "public",
-      image:
-        "/ey.png",
-      links: [
-        {
-          title: "Github",
-          href: "https://github.com/arpan-lol/lampstack",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-    },
-    {
       title: "Tesco Retail Media InnovAItion Jam (National Finalist)",
       dates: "December 2025",
       location: "",
@@ -334,6 +317,23 @@ export const DATA = {
         {
           title: "Github",
           href: "https://github.com/arpan-lol/retexture",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+    },
+    {
+      title: "EY Techathon 6.0",
+      dates: "December 2025",
+      location: "",
+      description:
+        "Developed an autonomous platform that validates healthcare provider data through a multi-agent AI architecture orchestrated by LangGraph.",
+      icon: "public",
+      image:
+        "/ey.png",
+      links: [
+        {
+          title: "Github",
+          href: "https://github.com/arpan-lol/lampstack",
           icon: <Icons.github className="size-3" />,
         },
       ],
