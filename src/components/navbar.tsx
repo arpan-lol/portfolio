@@ -35,12 +35,15 @@ export default function Navbar() {
               <TooltipTrigger asChild>
                 <Link
                   href={item.href}
+                  aria-label={item.label}
+                  title={item.label}
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
                     "size-12"
                   )}
                 >
                   <item.icon className="size-4" />
+                  <span className="sr-only">{item.label}</span>
                 </Link>
               </TooltipTrigger>
               <TooltipContent>
@@ -58,12 +61,15 @@ export default function Navbar() {
                 <TooltipTrigger asChild>
                   <Link
                     href={social.url}
+                    aria-label={name}
+                    title={name}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
                       "size-12"
                     )}
                   >
                     <social.icon className="size-4" />
+                    <span className="sr-only">{name}</span>
                   </Link>
                 </TooltipTrigger>
                 <TooltipContent>

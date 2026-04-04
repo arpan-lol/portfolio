@@ -6,6 +6,23 @@ export const DATA = {
   name: "Arpan Taneja",
   initials: "AT",
   url: "https://arpantaneja.dev",
+  seo: {
+    description:
+      "Arpan Taneja is a 19 year old full stack AI developer. Specializing in RAG and Agents, he works across the stack in web, AI and cloud workflows. ",
+    keywords: [
+      "Arpan Taneja",
+      "Full Stack Developer",
+      "AI",
+      "RAG",
+      "Agents",
+      "Next.js",
+      "TypeScript",
+      "Python",
+      "LangChain",
+      "Cloud Infrastructure",
+      "Portfolio",
+    ],
+  },
   location: "New Delhi, India",
   locationLink: "https://maps.app.goo.gl/X1GHwDDYD2jmJ3iq8",
   description:
