@@ -112,18 +112,18 @@ export const DATA = {
   },
 
   work: [
-    // {
-    // company: "Company",
-    // href: "...",
-    // badges: [],
-    // location: "Remote",
-    // title: "Software Engineer",
-    // logoUrl: "/abc.png",
-    // start: "May 2021",
-    // end: "Oct 2022",
-    // description:
-    //   "description",
-    // },
+    {
+    company: "Lean Summits",
+    href: "https://leansummits.com",
+    badges: [],
+    location: "Remote",
+    title: "AI Engineer Intern",
+    logoUrl: "/lean.png",
+    start: "April 2026",
+    end: "Present",
+    description:
+      "",
+    },
   ],
   education: [
     {
@@ -306,7 +306,7 @@ export const DATA = {
     },
     {
       title: "Cognizance 2025 (Second Position)",
-      dates: "September 14th - 16th, 2018",
+      dates: "September 14th - 16th, 2025",
       location: "IIT Roorkee, Uttrakhand, India",
       description:
         "Built a transaction safe freelance platform around milestone-based escrow, including atomic updates, multi-role auth, dispute tracking, timed unlocks, and on-chain settlement states.",
