@@ -137,7 +137,7 @@ export const DATA = {
     {
       school: "Indian Institute of Technology, Madras",
       href: "https://www.iitm.ac.in",
-      degree: "Bachelor's of Science in Data Science and Applications (B.E.)",
+      degree: "Bachelor of Science (BS) in Management and Data Science",
       logoUrl: "/iitm.png",
       start: "2024",
       end: "Present",
