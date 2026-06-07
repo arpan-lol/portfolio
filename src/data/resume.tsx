@@ -94,13 +94,13 @@ export const DATA = {
 
         navbar: true,
       },
-      Resume: {
-        name: "Resume",
-        url: "https://drive.google.com/drive/folders/1qH3eRSYjimIg_ryPR-7c5HSkvGkyPkih?usp=sharing",
-        icon: Icons.file,
+      // Resume: {
+      //   name: "Resume",
+      //   url: "https://drive.google.com/drive/folders/1qH3eRSYjimIg_ryPR-7c5HSkvGkyPkih?usp=sharing",
+      //   icon: Icons.file,
 
-        navbar: true,
-      },
+      //   navbar: true,
+      // },
       email: {
         name: "Send Email",
         url: "#",
