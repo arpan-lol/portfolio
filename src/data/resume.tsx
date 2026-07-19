@@ -324,7 +324,7 @@ export const DATA = {
     {
       title: "Tesco Retail Media InnovAItion Jam (National Finalist)",
       dates: "December 2025",
-      location: "",
+      location: "Dunnhumby Gurugram, India",
       description:
         "Built an AI-powered creative builder with real-time compliance enforcement. Suppliers design retail media directly in a browser-based canvas editor while an intelligent backend validates every element against Tesco's legal and brand guidelines.",
       icon: "public",
