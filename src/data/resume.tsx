@@ -8,7 +8,7 @@ export const DATA = {
   url: "https://arpantaneja.dev",
   seo: {
     description:
-      "Arpan Taneja is a 19 year old full stack AI developer. Specializing in RAG and Agents, he works across the stack in web, AI and cloud workflows. ",
+      "Arpan Taneja is a 20 year old full stack AI developer. Specializing in RAG and Agents, he works across the stack in web, AI and cloud workflows. ",
     keywords: [
       "Arpan Taneja",
       "Full Stack Developer",
@@ -26,7 +26,7 @@ export const DATA = {
   location: "New Delhi, India",
   locationLink: "https://maps.app.goo.gl/X1GHwDDYD2jmJ3iq8",
   description:
-    "19 y/o Full Stack AI dev",
+    "20 y/o Full Stack AI dev",
   summary: (
     <>
       Currently enrolled in <u><a href="#education">Bachelor&apos;s of Technology in Computer Science and Engineering</a></u>. I love playing with cloud infrastructure and automating anything that I can. I mostly learn by shipping and fixing what breaks. Outside of coding, I enjoy reading, playing guitar, and swimming.
@@ -284,6 +284,60 @@ export const DATA = {
       ],
       image: "/bitbybit-cover.png",
       video: ""
+    },
+    {
+      title: "Vysage",
+      href: "https://vysage.co",
+      active: true,
+      description:
+        "A full stack storefront and private community for structured self improvement protocols, with Razorpay payments and secure Telegram access fulfillment.",
+      technologies: [
+        "React",
+        "Next.js",
+        "PostgreSQL",
+        "Astro",
+        "Razorpay",
+        "Telegram API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://vysage.co",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/Vysage.gif",
+      video: "",
+    },
+    {
+      title: "IOSD",
+      href: "https://iosdmait.com",
+      active: true,
+      description:
+        "The official website for IOSD MAIT, the college's largest technical society, a cinematic hub for its technical domains, events, gallery, alumni, and student community.",
+      technologies: [
+        "React",
+        "Next.js",
+        "PostgreSQL",
+        "GSAP",
+        "Three.js",
+        "Framer Motion",
+        "Paper Shaders",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://iosdmait.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/arpan-lol/iosd-web",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/IOSD.gif",
+      video: "",
     },
   ],
   hackathons: [

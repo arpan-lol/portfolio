@@ -145,7 +145,7 @@ export default function Page() {
                   key={project.title}
                   title={project.title}
                   description={project.description}
-                  dates={project.dates}
+                  dates={"dates" in project ? project.dates : undefined}
                   tags={project.technologies}
                   image={project.image}
                   video={project.video}
