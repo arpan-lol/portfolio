@@ -1,7 +1,7 @@
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { DATA } from "@/data/resume";
+import { SEO_CONFIG } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
@@ -14,23 +14,37 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(DATA.url),
+  metadataBase: new URL(SEO_CONFIG.url),
   alternates: {
-    canonical: DATA.url,
+    canonical: SEO_CONFIG.url,
   },
   title: {
-    default: DATA.name,
-    template: `%s | ${DATA.name}`,
+    default: SEO_CONFIG.title,
+    template: `%s | ${SEO_CONFIG.siteName}`,
   },
-  description: DATA.seo.description,
-  keywords: DATA.seo.keywords.join(", "),
+  description: SEO_CONFIG.description,
+  keywords: [...SEO_CONFIG.keywords],
+  applicationName: SEO_CONFIG.siteName,
+  authors: [{ name: "Arpan Taneja", url: SEO_CONFIG.url }],
+  creator: "Arpan Taneja",
+  icons: {
+    icon: SEO_CONFIG.images.favicon,
+    shortcut: SEO_CONFIG.images.favicon,
+    apple: SEO_CONFIG.images.favicon,
+  },
   openGraph: {
-    title: `${DATA.name}`,
-    description: DATA.seo.description,
-    url: DATA.url,
-    siteName: `${DATA.name}`,
-    locale: "en_US",
+    title: SEO_CONFIG.title,
+    description: SEO_CONFIG.description,
+    url: SEO_CONFIG.url,
+    siteName: SEO_CONFIG.siteName,
+    locale: SEO_CONFIG.locale,
     type: "website",
+    images: [
+      {
+        url: SEO_CONFIG.images.openGraph,
+        alt: SEO_CONFIG.title,
+      },
+    ],
   },
   robots: {
     index: true,
@@ -44,12 +58,10 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: `${DATA.name}`,
+    title: SEO_CONFIG.title,
+    description: SEO_CONFIG.description,
     card: "summary_large_image",
-  },
-  verification: {
-    google: "",
-    yandex: "",
+    images: [SEO_CONFIG.images.twitter],
   },
 };
 

@@ -1,0 +1,24 @@
+# Arpan Taneja's Portfolio
+
+> AI Engineer at LeanSummits and a full stack AI developer based in New Delhi. Two-time national hackathon winner at IIT Roorkee and Bajaj Finserv, focused on generative AI, AI agents, retrieval-augmented generation, and cloud systems.
+
+## Portfolio
+
+- [Homepage](https://arpantaneja.dev): Background, skills, work experience, education, projects, and hackathon achievements.
+- [GitHub](https://github.com/arpan-lol): Source code and open-source work.
+- [LinkedIn](https://dub.sh/arpan-linkedin): Professional profile.
+
+## Current role
+
+- AI Engineer Intern at LeanSummits, working across generative AI, agents, and full stack systems.
+
+## Selected projects
+
+- [Cosmic Engine](https://cosmicengine.arpantaneja.dev): A RAG experimentation platform for evaluating retrieval, ranking, caching, observability, and transparency strategies.
+- [Veil](https://cyborg.arpantaneja.dev): An encrypted, local RAG application for investigative journalism powered by CyborgDB.
+- [Vysage](https://vysage.co): A storefront and private community with Razorpay payments and Telegram access fulfillment.
+- [IOSD MAIT](https://iosdmait.com): The official website for MAIT's largest technical society.
+
+## Contact
+
+- Email: arpantaneja14@gmail.com

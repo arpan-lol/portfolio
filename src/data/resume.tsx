@@ -2,26 +2,41 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import { title } from "process";
 
+// Search engine and link-sharing metadata. Keep these values together so they
+// can be updated without touching the app layout.
+export const SEO_CONFIG = {
+  title: "Arpan Taneja's Portfolio - 20 y/o Full Stack AI dev based in New Delhi",
+  description:
+    "AI Engineer at LeanSummits | 2x National Hackathon Winner (IITR, Bajaj Finserv) | Gen AI & Agents",
+  url: "https://arpantaneja.dev",
+  siteName: "Arpan Taneja's Portfolio",
+  locale: "en_US",
+  images: {
+    favicon: "/me.jpeg",
+    openGraph: "/me.jpeg",
+    twitter: "/me.jpeg",
+  },
+  keywords: [
+    "Arpan Taneja",
+    "AI Engineer",
+    "Generative AI",
+    "AI Agents",
+    "RAG",
+    "Full Stack Developer",
+    "Next.js",
+    "TypeScript",
+    "Python",
+    "Portfolio",
+  ],
+} as const;
+
 export const DATA = {
   name: "Arpan Taneja",
   initials: "AT",
-  url: "https://arpantaneja.dev",
+  url: SEO_CONFIG.url,
   seo: {
-    description:
-      "Arpan Taneja is a 20 year old full stack AI developer. Specializing in RAG and Agents, he works across the stack in web, AI and cloud workflows. ",
-    keywords: [
-      "Arpan Taneja",
-      "Full Stack Developer",
-      "AI",
-      "RAG",
-      "Agents",
-      "Next.js",
-      "TypeScript",
-      "Python",
-      "LangChain",
-      "Cloud Infrastructure",
-      "Portfolio",
-    ],
+    description: SEO_CONFIG.description,
+    keywords: SEO_CONFIG.keywords,
   },
   location: "New Delhi, India",
   locationLink: "https://maps.app.goo.gl/X1GHwDDYD2jmJ3iq8",
