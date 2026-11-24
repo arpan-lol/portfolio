@@ -212,7 +212,7 @@ I originally built it to learn and experiment with RAG, and it gradually grew as
     },
     {
       title: "Argus",
-      href: "https://github.com/arpan-lol/argus",
+      href: "https://argus.arpantaneja.dev",
       active: true,
       description:
         `
@@ -233,6 +233,11 @@ Agentic Graphs + best of regular RAG: Hybrid retrieval with HNSW and BM25 search
         "Azure OpenAI",
       ],
       links: [
+        {
+          type: "Website",
+          href: "https://argus.arpantaneja.dev",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/arpan-lol/argus",
