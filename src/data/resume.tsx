@@ -252,6 +252,12 @@ Agentic Graphs + best of regular RAG: Hybrid retrieval with HNSW and BM25 search
         },
       ],
       image: "/argus-cover-padded.png",
+      slides: [
+        { src: "/argus-cover-padded.png", alt: "Argus logo and tagline" },
+        { src: "/argus-falkordb-sdk-workspace.png", alt: "Argus workspace exploring the FalkorDB SDK codebase" },
+        { src: "/argus-retrieval-find-sources.png", alt: "Argus retrieval flow for finding sources" },
+        { src: "/argus-network-defense-workspace.png", alt: "Argus workspace exploring network defense documents" },
+      ],
       video: "",
     },
     {

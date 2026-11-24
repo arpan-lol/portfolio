@@ -148,6 +148,7 @@ export default function Page() {
                   dates={"dates" in project ? project.dates : undefined}
                   tags={project.technologies}
                   image={project.image}
+                  slides={"slides" in project ? project.slides : undefined}
                   video={project.video}
                   links={project.links}
                 />

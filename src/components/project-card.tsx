@@ -12,6 +12,7 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import { Star } from "lucide-react";
 import savedCounts from "@/data/project-counts.json";
+import { ProjectCoverSlideshow, type CoverSlide } from "@/components/project-cover-slideshow";
 
 interface Props {
   title: string;
@@ -21,6 +22,7 @@ interface Props {
   tags: readonly string[];
   link?: string;
   image?: string;
+  slides?: readonly CoverSlide[];
   video?: string;
   links?: readonly {
     icon: React.ReactNode;
@@ -39,6 +41,7 @@ export function ProjectCard({
   tags,
   link,
   image,
+  slides,
   video,
   links,
   className,
@@ -49,6 +52,9 @@ export function ProjectCard({
         "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
       }
     >
+      {slides && slides.length > 0 ? (
+        <ProjectCoverSlideshow slides={slides} title={title} href={href || "#"} className={className} />
+      ) : (
       <Link
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
@@ -73,6 +79,7 @@ export function ProjectCard({
           />
         )}
       </Link>
+      )}
       <CardHeader className="px-2">
         <div className="space-y-1">
           <CardTitle className="mt-1 text-base">{title}</CardTitle>
