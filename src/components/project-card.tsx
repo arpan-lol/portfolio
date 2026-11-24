@@ -10,6 +10,8 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { Star } from "lucide-react";
+import savedCounts from "@/data/project-counts.json";
 
 interface Props {
   title: string;
@@ -24,6 +26,7 @@ interface Props {
     icon: React.ReactNode;
     type: string;
     href: string;
+    showCount?: boolean;
   }[];
   className?: string;
 }
@@ -100,14 +103,27 @@ export function ProjectCard({
       <CardFooter className="px-2 pb-2">
         {links && links.length > 0 && (
           <div className="flex flex-row flex-wrap items-start gap-1">
-            {links?.map((link, idx) => (
-              <Link href={link?.href} key={idx} target="_blank">
+            {links?.map((link, idx) => {
+              const metric = link.showCount
+                ? (savedCounts as Record<string, { count: number | null; updatedAt: string | null }>)[link.href]
+                : undefined;
+              const count = metric?.count;
+              const isPeerlist = link.type === "Upvote";
+              return (
+              <Link href={link.href} key={idx} target="_blank" rel="noopener noreferrer"
+                aria-label={`${link.type} ${title}${isPeerlist ? " on Peerlist" : ""}${typeof count === "number" ? `, ${count} ${isPeerlist ? "upvotes" : "GitHub stars"}` : ""}`}
+                title={typeof count === "number" ? `Count last fetched ${metric?.updatedAt}` : undefined}>
                 <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
-                  {link.icon}
+                  <span aria-hidden="true">{link.icon}</span>
                   {link.type}
+                  {typeof count === "number" && <span className="flex items-center gap-1 tabular-nums">
+                    {!isPeerlist && <Star aria-hidden="true" className="size-3" />}
+                    {count}
+                  </span>}
                 </Badge>
               </Link>
-            ))}
+              );
+            })}
           </div>
         )}
       </CardFooter>

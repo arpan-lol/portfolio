@@ -173,7 +173,10 @@ export const DATA = {
       dates: "Sep 2025 - Dec 2025",
       active: true,
       description:
-        "A RAG experimentation platform that brings together 10+ retrieval, ranking, and caching strategies in one place. I originally built it to learn and experiment with Retrieval-Augmented Generation, and it gradually grew as I added more techniques and edge cases I ran into. As it evolved, I layered in observability and transparency to better understand how different RAG strategies behave in practice.",
+        `
+A RAG experimentation platform that brings together 10+ retrieval, ranking, and caching strategies in one place. 
+        
+I originally built it to learn and experiment with RAG, and it gradually grew as I added more techniques and edge cases I ran into. As it evolved, I layered in observability and transparency to better understand how different RAG strategies behave in practice.`,
       technologies: [
         "Milvus",
         "Typescript",
@@ -194,44 +197,56 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/arpan-lol/cosmic-engine",
+          showCount: true,
           icon: <Icons.github className="size-3" />
-        }
+        },
+        {
+          type: "Upvote",
+          href: "https://peerlist.io/arpanlol/project/cosmic-engine",
+          showCount: true,
+          icon: <Icons.peerlist className="size-3" />,
+        },
       ],
       image: "",
       video: "/Cosmic Engine demo video.mp4",
     },
     {
-      title: "Zypher",
-      href: "https://csim1.arpantaneja.dev",
-      dates: "Dec 2024 - Feb 2025",
+      title: "Argus",
+      href: "https://github.com/arpan-lol/argus",
       active: true,
       description:
-        "A mobile app for running college events and live voting. schedules, profiles, and quick updates, all built with TypeScript.",
+        `
+Turn anything into a knowledge graph you can talk to!
+
+
+Convert code/documents/database into an interactive knowledge graph you can explore, search and ask questions.
+
+Agentic Graphs + best of regular RAG: Hybrid retrieval with HNSW and BM25 search + RRF reranking, then combined them with graph traversal so agents can move from relevant matches to connected context.
+        `,
       technologies: [
-        "React-Native",
-        "Expo",
-        "Docker",
-        "DigitalOcean",
-        "SSE",
-        "Github Actions",
-        "Typescript",
+        "GraphRAG",
+        "FalkorDB",
         "PostgreSQL",
-        "Prisma",
-        "Firebase",
+        "Python",
+        "TypeScript",
+        "Next.js",
+        "Azure OpenAI",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://csim1.arpantaneja.dev",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Source",
-          href: "https://github.com/arpan-lol/csi-m1",
+          href: "https://github.com/arpan-lol/argus",
+          showCount: true,
           icon: <Icons.github className="size-3" />,
         },
+        {
+          type: "Upvote",
+          href: "https://peerlist.io/arpanlol/project/argus",
+          showCount: true,
+          icon: <Icons.peerlist className="size-3" />,
+        },
       ],
-      image: "/csim1.jpg",
+      image: "/argus-cover-padded.png",
       video: "",
     },
     {
@@ -268,37 +283,6 @@ export const DATA = {
       ],
       image: "/veil.gif",
       video: "",
-    },
-    {
-      title: "BitByBit",
-      href: "https://bitbybit.arpantaneja.dev",
-      dates: "March 2025",
-      active: true,
-      description:
-        "A transaction safe system around milestone-based escrow, including atomic updates, dispute tracking, timed unlocks, and on-chain settlement states. Built as a freelancing host alternative, in 24 hours at Cognizance 2025 (hackathon).",
-      technologies: [
-        "Solana",
-        "AWS",
-        "Vercel",
-        "Next.js",
-        "React",
-        "Express",
-        "PostgreSQL"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://bitbybit.arpantaneja.dev",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/arpan-lol/bitbybit",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/bitbybit-cover.png",
-      video: ""
     },
     {
       title: "Vysage",
@@ -353,6 +337,71 @@ export const DATA = {
       ],
       image: "/IOSD.gif",
       video: "",
+    },
+    {
+      title: "Zypher",
+      href: "https://csim1.arpantaneja.dev",
+      dates: "Dec 2024 - Feb 2025",
+      active: true,
+      description:
+        "A mobile app for running college events and live voting. schedules, profiles, and quick updates, all built with TypeScript.",
+      technologies: [
+        "React-Native",
+        "Expo",
+        "Docker",
+        "DigitalOcean",
+        "SSE",
+        "Github Actions",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "Firebase",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://csim1.arpantaneja.dev",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/arpan-lol/csi-m1",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/csim1.jpg",
+      video: "",
+    },
+    {
+      title: "BitByBit",
+      href: "https://bitbybit.arpantaneja.dev",
+      dates: "March 2025",
+      active: true,
+      description:
+        "A transaction safe system around milestone-based escrow, including atomic updates, dispute tracking, timed unlocks, and on-chain settlement states. Built as a freelancing host alternative, in 24 hours at Cognizance 2025 (hackathon).",
+      technologies: [
+        "Solana",
+        "AWS",
+        "Vercel",
+        "Next.js",
+        "React",
+        "Express",
+        "PostgreSQL"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://bitbybit.arpantaneja.dev",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/arpan-lol/bitbybit",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/bitbybit-cover.png",
+      video: ""
     },
   ],
   hackathons: [
